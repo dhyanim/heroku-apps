@@ -74,6 +74,7 @@
 </properties>
  
 <build>
+ <pluginManagement>
  <plugins>
   <plugin>
       <groupId>com.heroku.sdk</groupId>
@@ -92,5 +93,6 @@
       </configuration>
   </plugin>
  </plugins>
+ </pluginManagement>
 </build>
 </project>
